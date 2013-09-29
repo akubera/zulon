@@ -10,7 +10,7 @@
 
 import sys, getopt
 import about
-import lexer
+import ply_lexer as lexer
 
 def usage():
   print "usage:\t%s [options] args" % (about.name)
@@ -65,6 +65,9 @@ def main(argv):
             print "Error!"
             usage()
             sys.exit(2)
+
+  for arg in args:
+    lexer.ParseFile(arg)
 
 
 #
