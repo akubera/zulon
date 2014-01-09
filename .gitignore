@@ -35,3 +35,6 @@ nosetests.xml
 .pydevproject
 
 env
+
+*.out
+parsetab.py

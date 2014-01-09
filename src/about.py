@@ -1,5 +1,5 @@
 #
-# about.py
+# zulon/src/about.py
 #
 #
 
